@@ -30,8 +30,8 @@ function createLogo() {
         console.log(answers);
         // Create SVG content based on user input
         const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
-        <text x="10" y="20" fill="${answers.textColor}">${answers.text}</text>
-        ${shapes[answers.shape](answers.shapeColor)}
+        ${shapes[answers.shapeChoice](answers.shapeColor)}
+        <text x="150" y="100" text-anchor="middle" alignment-baseline="middle" fill="${answers.textColor}">${answers.text}</text>
       </svg>`;
     //   Save SVG to file
     fs.writeFile('logo.svg', svgContent, (err) => {
@@ -40,3 +40,5 @@ function createLogo() {
     });
     });
 };
+
+createLogo();
