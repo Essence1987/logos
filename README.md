@@ -38,6 +38,10 @@ To run tests on this application, enter the following command into the terminal:
 
 For a demonstration, please watch the following video:
 
+
+https://github.com/Essence1987/logos/assets/129245370/47eed276-dbc3-4dbe-9c87-0f88c1307f4c
+
+
 # **Credits**
 
 This was a solo project with no contributors taking part.
