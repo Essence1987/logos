@@ -17,6 +17,10 @@ Once the repo is copied to your device, ensure your terminal is pointing at the 
 
 # **Usage**
 
+The following image shows a mock-up of the generated SVG given the following input entered by the user: `SVG` for the text, `white` for the text color, `circle` from the list of shapes, and `black` for the shape color. Note that this is just an image of the output SVG and not the SVG file itself:
+
+![Image showing a black circle with white text that reads "SVG.".](./examples/circle.svg)
+
 For a demonstration, please watch the following video:
 
 # **Technology**
@@ -28,6 +32,8 @@ For a demonstration, please watch the following video:
 # **Test**
 
 To run tests on this application, enter the following command into the terminal: <p style="text-align: center;"><br><strong>nxt jest</strong></p> <br>If you would like to create your tests you can edit the shapes.test.js file with your updated testing parameters and then run the command.
+
+For a demonstration, please watch the following video:
 
 # **Credits**
 
