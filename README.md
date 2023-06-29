@@ -23,6 +23,9 @@ The following image shows a mock-up of the generated SVG given the following inp
 
 For a demonstration, please watch the following video:
 
+https://github.com/Essence1987/logos/assets/129245370/258125e9-d815-4098-afec-2a669e924604
+
+
 # **Technology**
 
 -NPM
