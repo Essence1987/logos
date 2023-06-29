@@ -9,6 +9,12 @@ function createLogo() {
         type: 'input',
         name: 'text',
         message: 'Enter up to three characters:',
+        validate: (input) => {
+          if (input.length > 3) {
+            return 'Only three characters allowed.';
+          }
+          return true;
+        },
       },
       {
         type: 'input',
