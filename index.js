@@ -33,7 +33,7 @@ function createLogo() {
       const shape = new shapes[answers.shapeChoice](answers.shapeColor);
       const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
         ${shape.getSvgCode()}
-        <text x="150" y="100" text-anchor="middle" alignment-baseline="middle" fill="${answers.textColor}">${answers.text}</text>
+        <text x="150" y="100" text-anchor="middle" alignment-baseline="middle" font-size="30" fill="${answers.textColor}">${answers.text}</text>
       </svg>`;
       // Save SVG to file
       fs.writeFile('logo.svg', svgContent, (err) => {

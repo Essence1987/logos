@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+        <polygon points="150,20 220,170 80,170" fill="pink" />
+        <text x="150" y="100" text-anchor="middle" alignment-baseline="middle" font-size="30" fill="teal">DET</text>
+      </svg>
