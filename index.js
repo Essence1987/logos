@@ -44,7 +44,7 @@ function createLogo() {
       // Save SVG to file
       fs.writeFile('logo.svg', svgContent, (err) => {
         if (err) throw err;
-        console.log('Generated logo.svg');
+        console.log('Generated lgo.svg');
       });
     });
 }
